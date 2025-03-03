@@ -1,4 +1,6 @@
 import requests
+import os
+import datetime
 from datetime import datetime
 
 # Base URLs
@@ -64,6 +66,14 @@ def generate_m3u_playlist(streams):
     
     print(f"M3U Playlist generated: {OUTPUT_FILE}")
 
+def update_github():
+    """Push the updated M3U file to GitHub."""
+    os.system("git config --global user.email 'github-actions@github.com'")
+    os.system("git config --global user.name 'GitHub Actions'")
+    os.system("git add ppvland_playlist.m3u")
+    os.system('git commit -m "Auto-update M3U playlist"')
+    os.system("git push")
+
 def main():
     print("Fetching latest streams...")
     streams = fetch_streams()
@@ -74,7 +84,9 @@ def main():
 
     print("Generating M3U playlist with start/end times...")
     generate_m3u_playlist(streams)
-    print("Done! You can now use the playlist in Kodi, VLC, or any IPTV player.")
+    print("Pushing updates to GitHub...")
+    update_github()
+    print("Done! Your playlist is live on GitHub.")
 
 if __name__ == "__main__":
     main()
