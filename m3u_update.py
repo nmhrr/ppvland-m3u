@@ -1,31 +1,12 @@
 import os
 import requests
-
-OUTPUT_FILE = "ppvland_playlist.m3u"
-
-def generate_m3u():
-    """Create a dummy M3U file to test GitHub Actions."""
-    m3u_content = "#EXTM3U\n#EXTINF:-1, Sample Stream\nhttps://example.com/stream.m3u8\n"
-    
-    print(f"📁 Attempting to save M3U file to: {OUTPUT_FILE}")
-    
-    try:
-        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-            f.write(m3u_content)
-        print(f"✅ M3U file successfully created at {OUTPUT_FILE}")
-    except Exception as e:
-        print(f"❌ Error writing M3U file: {e}")
-
-if __name__ == "__main__":
-    generate_m3u()
-
 import datetime
 from pytz import timezone
 
-# ✅ Proxy setup (Optional: Replace with your actual proxy if needed)
+# ✅ Configure HTTP Proxy (Replace with your proxy IP & Port)
 PROXY = {
-    "http": "http://172.67.181.166:80",
-    "https": "http://172.67.181.166:80"
+    "http": "http://116.203.203.208:3128",
+    "https": "http://116.203.203.208:3128"
 }
 
 # ✅ API Endpoint
@@ -41,7 +22,7 @@ CURRENT_TIME = datetime.datetime.now(ET_TZ)
 def fetch_streams():
     """Fetch live streams from PPV.LAND API using a proxy."""
     try:
-        print("📡 Fetching live streams from PPV.LAND...")
+        print("📡 Fetching live streams from PPV.LAND through proxy...")
         response = requests.get(API_URL, proxies=PROXY, timeout=10)
         response.raise_for_status()
         return response.json()
@@ -68,7 +49,6 @@ def generate_m3u(stream_data):
     for category in stream_data["streams"]:
         for stream in category["streams"]:
             start_time = stream.get("starts_at")
-            end_time = stream.get("ends_at")
             stream_id = stream.get("id")
             stream_name = stream.get("name")
             tag = stream.get("tag")
@@ -77,12 +57,9 @@ def generate_m3u(stream_data):
             url = f"https://ppv.land/api/streams/{stream_id}"  # Get M3U8 URL from ID
 
             # ✅ Determine if it's a 24/7 stream
-            if start_time and end_time:
+            if start_time:
                 start_dt = datetime.datetime.fromtimestamp(start_time, ET_TZ)
-                if start_dt < CURRENT_TIME:
-                    formatted_time = "24/7"
-                else:
-                    formatted_time = format_time(start_time)
+                formatted_time = "24/7" if start_dt < CURRENT_TIME else format_time(start_time)
             else:
                 formatted_time = "24/7"
 
