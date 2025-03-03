@@ -1,3 +1,3 @@
-Pulls streams from ppv.land API and lets you watch them anywhere
+Pulls streams from ppv.land api and lets you watch them anywhere
 
-Thank you ppv.land
+ChatGPT wrote this entire thing
