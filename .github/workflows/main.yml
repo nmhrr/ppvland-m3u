@@ -24,15 +24,15 @@ jobs:
       - name: Run M3U Update Script
         run: python m3u_update.py
 
-      - name: Debug, List Files in Directory
+      - name: Debug: List Files in Directory
         run: ls -lah
 
       - name: Commit and Push Changes
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # ✅ Using correct secret name
         run: |
           git config --global user.email "github-actions@github.com"
           git config --global user.name "GitHub Actions"
           git add ppvland_playlist.m3u || echo "⚠️ No M3U file found!"
           git commit -m "Auto-update M3U playlist" || exit 0
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git main
+          git push https://x-access-token:${{ secrets.MY_GITHUB_TOKEN }}@github.com/${{ github.repository }}.git main
