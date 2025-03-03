@@ -1,4 +1,4 @@
-name: Auto-Update M3U Playlist
+name: Update M3U Playlist
 
 on:
   schedule:
@@ -6,27 +6,28 @@ on:
   workflow_dispatch:  # Allows manual runs
 
 jobs:
-  update-playlist:
+  update-m3u:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v3
+      - name: Set Up Python
+        uses: actions/setup-python@v4
         with:
-          python-version: "3.x"
+          python-version: '3.9'
 
       - name: Install Dependencies
-        run: pip install requests
+        run: pip install requests pytz
 
-      - name: Run Script
-        run: python generate_m3u.py
+      - name: Run M3U Update Script
+        run: python m3u_update.py
 
-      - name: Commit and Push if Changes
+      - name: Commit and Push Changes
         run: |
           git config --global user.email "github-actions@github.com"
           git config --global user.name "GitHub Actions"
           git add ppvland_playlist.m3u
-          git commit -m "Auto-update M3U playlist" || echo "No changes to commit"
+          git commit -m "Auto-update M3U playlist" || exit 0
           git push
