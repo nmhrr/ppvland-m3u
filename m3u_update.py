@@ -5,8 +5,8 @@ from pytz import timezone
 
 # ✅ Proxy setup (Optional: Replace with your actual proxy if needed)
 PROXY = {
-    "http": "http://your-proxy-url:port",
-    "https": "http://your-proxy-url:port"
+    "http": "http://172.67.181.166:80",
+    "https": "http://172.67.181.166:80"
 }
 
 # ✅ API Endpoint
