@@ -21,12 +21,13 @@ jobs:
         run: pip install requests
 
       - name: Run Script
-        run: python generate_m3u.py
-
-      - name: Check if M3U File Exists
         run: |
-          if [ ! -f "ppvland_playlist.m3u" ]; then
-            echo "❌ M3U file not found! Exiting..."
+          python generate_m3u.py
+
+      - name: Verify M3U File Exists
+        run: |
+          if [ ! -s "ppvland_playlist.m3u" ]; then
+            echo "❌ M3U file is missing or empty! Exiting..."
             exit 1
           fi
 
