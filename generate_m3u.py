@@ -1,58 +1,15 @@
-import requests
-import os
-import datetime
-from datetime import datetime
-
-# Base URLs
-STREAMS_API = "https://ppv.land/api/streams"
-STREAM_DETAILS_API = "https://ppv.land/api/streams/{}"
-OUTPUT_FILE = "ppvland_playlist.m3u"
-
-def fetch_streams():
-    """Fetch the list of available streams."""
-    response = requests.get(STREAMS_API)
-    if response.status_code != 200:
-        print("Failed to fetch streams.")
-        return []
-    
-    data = response.json()
-    streams = []
-    
-    for category in data.get("streams", []):
-        for stream in category.get("streams", []):
-            streams.append({
-                "id": stream["id"],
-                "name": stream["name"],
-                "poster": stream["poster"],
-                "category": category["category"],
-                "start_time": stream["starts_at"],
-                "end_time": stream["ends_at"]
-            })
-    
-    return streams
-
-def fetch_m3u8_link(stream_id):
-    """Fetch the M3U8 link for a given stream ID."""
-    response = requests.get(STREAM_DETAILS_API.format(stream_id))
-    if response.status_code != 200:
-        return None
-    
-    data = response.json()
-    return data["data"].get("m3u8")
-
-def format_timestamp(timestamp):
-    """Convert UNIX timestamp to ISO 8601 format for M3U playlists."""
-    if timestamp:
-        return datetime.utcfromtimestamp(timestamp).strftime("%Y%m%dT%H%M%SZ")
-    return ""
-
 def generate_m3u_playlist(streams):
     """Generate an M3U playlist from the stream data."""
+    if not streams:
+        print("No streams available to generate M3U file!")
+        return
+
     m3u_content = "#EXTM3U\n"
 
     for stream in streams:
         m3u8_url = fetch_m3u8_link(stream["id"])
         if not m3u8_url:
+            print(f"Skipping {stream['name']} (No M3U8 link found)")
             continue
 
         start_time = format_timestamp(stream["start_time"])
@@ -63,30 +20,5 @@ def generate_m3u_playlist(streams):
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(m3u_content)
-    
-    print(f"M3U Playlist generated: {OUTPUT_FILE}")
 
-def update_github():
-    """Push the updated M3U file to GitHub."""
-    os.system("git config --global user.email 'github-actions@github.com'")
-    os.system("git config --global user.name 'GitHub Actions'")
-    os.system("git add ppvland_playlist.m3u")
-    os.system('git commit -m "Auto-update M3U playlist"')
-    os.system("git push")
-
-def main():
-    print("Fetching latest streams...")
-    streams = fetch_streams()
-
-    if not streams:
-        print("No streams available.")
-        return
-
-    print("Generating M3U playlist with start/end times...")
-    generate_m3u_playlist(streams)
-    print("Pushing updates to GitHub...")
-    update_github()
-    print("Done! Your playlist is live on GitHub.")
-
-if __name__ == "__main__":
-    main()
+    print(f"✅ M3U Playlist generated successfully: {OUTPUT_FILE}")
