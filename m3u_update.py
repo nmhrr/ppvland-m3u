@@ -3,7 +3,7 @@ import requests
 import datetime
 from pytz import timezone
 
-# ✅ Configure HTTP Proxy (Replace with your proxy IP & Port)
+# ✅ Proxy Setup (YOUR PROXY)
 PROXY = {
     "http": "http://116.203.203.208:3128",
     "https": "http://116.203.203.208:3128"
@@ -20,10 +20,10 @@ ET_TZ = timezone("America/New_York")
 CURRENT_TIME = datetime.datetime.now(ET_TZ)
 
 def fetch_streams():
-    """Fetch live streams from PPV.LAND API using a proxy."""
+    """Fetch live streams from PPV.LAND API using the proxy."""
     try:
-        print("📡 Fetching live streams from PPV.LAND through proxy...")
-        response = requests.get(API_URL, proxies=PROXY, timeout=10)
+        print(f"📡 Fetching live streams from PPV.LAND via Proxy: {PROXY['http']}")
+        response = requests.get(API_URL, proxies=PROXY, timeout=15)
         response.raise_for_status()
         return response.json()
     except requests.RequestException as e:
