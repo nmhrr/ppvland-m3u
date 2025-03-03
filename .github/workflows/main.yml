@@ -24,7 +24,7 @@ jobs:
       - name: Run M3U Update Script
         run: python m3u_update.py
 
-      - name: Debug: List Files in Directory
+      - name: Debug, List Files in Directory
         run: ls -lah
 
       - name: Commit and Push Changes
