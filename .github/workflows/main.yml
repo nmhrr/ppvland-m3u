@@ -23,10 +23,10 @@ jobs:
       - name: Run Script
         run: python generate_m3u.py
 
-      - name: Check if File Exists
+      - name: Check if M3U File Exists
         run: |
           if [ ! -f "ppvland_playlist.m3u" ]; then
-            echo "M3U file was NOT created! Exiting..."
+            echo "❌ M3U file not found! Exiting..."
             exit 1
           fi
 
