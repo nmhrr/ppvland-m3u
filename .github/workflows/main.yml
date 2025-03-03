@@ -23,10 +23,17 @@ jobs:
       - name: Run Script
         run: python generate_m3u.py
 
+      - name: Check if File Exists
+        run: |
+          if [ ! -f "ppvland_playlist.m3u" ]; then
+            echo "M3U file was NOT created! Exiting..."
+            exit 1
+          fi
+
       - name: Commit and Push if Changes
         run: |
           git config --global user.email "github-actions@github.com"
           git config --global user.name "GitHub Actions"
           git add ppvland_playlist.m3u
-          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update M3U playlist"
-          git push
+          git commit -m "Auto-update M3U playlist" || echo "No changes to commit"
+          git push || echo "No changes to push"
