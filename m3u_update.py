@@ -1,5 +1,24 @@
 import os
 import requests
+
+OUTPUT_FILE = "ppvland_playlist.m3u"
+
+def generate_m3u():
+    """Create a dummy M3U file to test GitHub Actions."""
+    m3u_content = "#EXTM3U\n#EXTINF:-1, Sample Stream\nhttps://example.com/stream.m3u8\n"
+    
+    print(f"📁 Attempting to save M3U file to: {OUTPUT_FILE}")
+    
+    try:
+        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+            f.write(m3u_content)
+        print(f"✅ M3U file successfully created at {OUTPUT_FILE}")
+    except Exception as e:
+        print(f"❌ Error writing M3U file: {e}")
+
+if __name__ == "__main__":
+    generate_m3u()
+
 import datetime
 from pytz import timezone
 
