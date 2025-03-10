@@ -9,8 +9,6 @@ https://director.taihotel.asia/v3/director/VE1ZGEyNDNkZWMyNzFjLWU2OWItNzFlNC00NW
 https://director.taihotel.asia/v3/director/VE1MGQzNzI5MTE0YjQwLTVmYmEtYmE3NC1kOThlLWY2MmU4NGI4/master.m3u8?md5=EloZhPbdP5s_81KkXPwpYQ&expires=1737196080
 #EXTINF:-1 tvg-id="3716" tvg-name="(North) Korean Central Television - 24/7 - 9AM-10:30PM Pyongyang Time" tvg-logo="https://i.imgur.com/CnphStu.png",(North) Korean Central Television - 24/7 - 9AM-10:30PM Pyongyang Time
 https://tv.nknews.org/tvhls/stream.m3u8?md5=Yg2p2XMywLYDUGhXGk91ag&expires=1737237600
-#EXTINF:-1 tvg-id="5231" tvg-name="🏀 Grizzlies at Pelicans - 06:00 PM ET to 08:45 PM ET 03/09/25 - GCSEN" tvg-logo="https://cdn.nba.com/davinci/images/team-matchups/nba/latest/ced/mem-nop/1280x720.png",🏀 Grizzlies at Pelicans - 06:00 PM ET to 08:45 PM ET 03/09/25 - GCSEN
-https://director.taihotel.asia/v3/director/VE1M2VhOGNkMDVhMGQ2LWNhMGEtZmYxNC04MTIwLTg2NzQ4Nzkz/master.m3u8?md5=rY8CBn0myyeBSUPXJycxxg&expires=1741571100
 #EXTINF:-1 tvg-id="5232" tvg-name="🏀 Jazz at 76ers - 06:30 PM ET to 09:15 PM ET 03/09/25 - NBCSP" tvg-logo="https://cdn.nba.com/davinci/images/team-matchups/nba/latest/ced/uta-phi/1280x720.png",🏀 Jazz at 76ers - 06:30 PM ET to 09:15 PM ET 03/09/25 - NBCSP
 https://director.taihotel.asia/v3/director/VE1ZjY1YzBmMDZmNGU3LWZiMzgtYWI2NC0wYTJkLTEzMmVjYTdh/master.m3u8?md5=aS9DdthD8Ajv8R_83QKFCA&expires=1741572900
 #EXTINF:-1 tvg-id="5230" tvg-name="🏀 Cavaliers at Bucks - 07:00 PM ET to 09:45 PM ET 03/09/25 - ESPN" tvg-logo="https://cdn.nba.com/davinci/images/team-matchups/nba/latest/ced/cle-mil/1280x720.png",🏀 Cavaliers at Bucks - 07:00 PM ET to 09:45 PM ET 03/09/25 - ESPN
@@ -23,8 +21,24 @@ https://director.taihotel.asia/v3/director/VE1NGY3Mzk5YmJlYmQwLWFmZjktMjYzNC02Nz
 https://director.taihotel.asia/v3/director/VE1Y2I4M2RiNDI1OTI1LThmMmEtNzZkNC0zZDQ2LTIyNTIxYjE3/master.m3u8?md5=aG2O6sGhW7NoFKH5LsVG1A&expires=1741578300
 #EXTINF:-1 tvg-id="5235" tvg-name="🏀 Kings at Clippers - 08:30 PM ET to 11:15 PM ET 03/09/25 - FDSNSC" tvg-logo="https://cdn.nba.com/davinci/images/team-matchups/nba/latest/ced/sac-lac/1280x720.png",🏀 Kings at Clippers - 08:30 PM ET to 11:15 PM ET 03/09/25 - FDSNSC
 https://director.taihotel.asia/v3/director/VE1MWIwZTYwOWY0NTQ3LTMzNTktZTcxNC05ODJiLTY0NjkwOGFi/master.m3u8?md5=M43pgl_tu_wLkvfHXUJncw&expires=1741580100
+#EXTINF:-1 tvg-id="5279" tvg-name="Tampa Bay Rays vs. Atlanta Braves - 12:05 PM ET to 03:05 PM ET 03/10/25 - MLB Video" tvg-logo="https://i.imgur.com/qanaeRB.png",Tampa Bay Rays vs. Atlanta Braves - 12:05 PM ET to 03:05 PM ET 03/10/25 - MLB Video
+https://director.taihotel.asia/v3/director/VE1YWMxN2M4YWMzNTVjLWY0NjgtMTIwNC00MmY5LWZjMzJhNGU4/master.m3u8?md5=C6GsqRZtApUdawK4rAiusQ&expires=1741637100
+#EXTINF:-1 tvg-id="5280" tvg-name="Detroit Tigers vs. New York Yankees - 12:05 PM ET to 03:05 PM ET 03/10/25 - YES" tvg-logo="https://i.imgur.com/3XSHIn3.png",Detroit Tigers vs. New York Yankees - 12:05 PM ET to 03:05 PM ET 03/10/25 - YES
+https://director.taihotel.asia/v3/director/VE1MmQ4YjNmYzE5YTY1LTZjZDktMTEwNC05NzExLTc2M2QwNGE2/master.m3u8?md5=C6GsqRZtApUdawK4rAiusQ&expires=1741637100
+#EXTINF:-1 tvg-id="5281" tvg-name="Houston Astros vs. Toronto Blue Jays - 12:07 PM ET to 03:07 PM ET 03/10/25 - Sportnet" tvg-logo="https://i.imgur.com/A0P6Nit.png",Houston Astros vs. Toronto Blue Jays - 12:07 PM ET to 03:07 PM ET 03/10/25 - Sportnet
+https://director.taihotel.asia/v3/director/VE1YjQyNWFjNjFhNmYzLTE3NTktNDg1NC00YTQ3LTQxYmM1MTVi/master.m3u8?md5=0dYSYYj69GQFnV0yUlmRQw&expires=1741637220
 #EXTINF:-1 tvg-id="5276" tvg-name="🏈 EPL: West Ham United vs Newcastle United - 03:00 PM ET to 05:30 PM ET 03/10/25 - Sky Sports" tvg-logo="https://i.imgur.com/r4Mwyyf.jpeg",🏈 EPL: West Ham United vs Newcastle United - 03:00 PM ET to 05:30 PM ET 03/10/25 - Sky Sports
 https://director.taihotel.asia/v3/director/VE1Y2U0YThlZWM1MjcyLTVkMmItZTBiNC1lYzJjLTcxNzM0YzM3/master.m3u8?md5=lRgxKy2E51SQdANfmsXbGA&expires=1741645800
+#EXTINF:-1 tvg-id="5285" tvg-name="Arizona Diamondbacks vs. Los Angeles Dodgers - 03:05 PM ET to 06:05 PM ET 03/10/25 - SNLA" tvg-logo="https://i.imgur.com/kZkCX77.png",Arizona Diamondbacks vs. Los Angeles Dodgers - 03:05 PM ET to 06:05 PM ET 03/10/25 - SNLA
+https://director.taihotel.asia/v3/director/VE1OWUzMmMwNDYzMDRlLWI4MTktNTdhNC1kYTU5LTcwMDc3MTky/master.m3u8?md5=MlFx-jM942z7IsC41Roy2g&expires=1741647900
+#EXTINF:-1 tvg-id="5287" tvg-name="Colorado Rockies vs. Los Angeles Angels - 03:10 PM ET to 06:10 PM ET 03/10/25 - FDSNW" tvg-logo="https://i.imgur.com/il1WE3t.png",Colorado Rockies vs. Los Angeles Angels - 03:10 PM ET to 06:10 PM ET 03/10/25 - FDSNW
+https://director.taihotel.asia/v3/director/VE1OWU2MzFkOTA2ZDFiLTQ4ZTktYTQyNC1lMWNiLWU5YzZhODVm/master.m3u8?md5=hzXsS4QvQF1ARWtbjQfL5A&expires=1741648200
+#EXTINF:-1 tvg-id="5288" tvg-name="Cincinnati Reds vs. San Diego Padres - 03:10 PM ET to 06:10 PM ET 03/10/25 - SDPA" tvg-logo="https://i.imgur.com/yejQRFo.png",Cincinnati Reds vs. San Diego Padres - 03:10 PM ET to 06:10 PM ET 03/10/25 - SDPA
+https://director.taihotel.asia/v3/director/VE1OGRiM2QyY2Q3MzU5LWUyNWEtYjY3NC1hYWIwLWEzMDM1NDU5/master.m3u8?md5=hzXsS4QvQF1ARWtbjQfL5A&expires=1741648200
+#EXTINF:-1 tvg-id="5291" tvg-name="Baltimore Orioles vs. Pittsburgh Pirates - 05:05 PM ET to 08:05 PM ET 03/10/25 - SNP" tvg-logo="https://i.imgur.com/cbEssYu.png",Baltimore Orioles vs. Pittsburgh Pirates - 05:05 PM ET to 08:05 PM ET 03/10/25 - SNP
+https://director.taihotel.asia/v3/director/VE1OGE0ODRhOWFhNTdhLTllYjktNTA4NC0zZTNiLTgyZGI3MGQ3/master.m3u8?md5=Xpm6ponswHZoNjexfrpeuA&expires=1741655100
+#EXTINF:-1 tvg-id="5293" tvg-name="St. Louis Cardinals vs. New York Mets - 05:10 PM ET to 08:10 PM ET 03/10/25 - SNY" tvg-logo="https://i.imgur.com/cUtA3EU.png",St. Louis Cardinals vs. New York Mets - 05:10 PM ET to 08:10 PM ET 03/10/25 - SNY
+https://director.taihotel.asia/v3/director/VE1NTgwYWU4MzQ5OGRjLTEzYzgtMzBmNC0zY2IyLTdhM2ZlY2Uy/master.m3u8?md5=CBo0MRd1jNulmXY4zoO7kg&expires=1741655400
 #EXTINF:-1 tvg-id="4286" tvg-name="🤼 WWE RAW - 08:00 PM ET to 12:00 AM ET 03/10/25 - Netflix" tvg-logo="https://i.imgur.com/zQQieeY.png",🤼 WWE RAW - 08:00 PM ET to 12:00 AM ET 03/10/25 - Netflix
 https://director.mgi9ehlj7z061brnpp28wr2x7n9wvpr10.click/v3/director/VE1Y2MyYTFhM2RmNmJjLTk1MGItZjdiNC03YTQ1LTA3ZTdkMmYy/master.m3u8?md5=QmJRGRMXj9PzN4i4dKtAeg&expires=1741669200
 #EXTINF:-1 tvg-id="4290" tvg-name="🤼 WWE NXT - 08:00 PM ET to 11:00 PM ET 03/11/25 - Netflix" tvg-logo="https://i.imgur.com/n7tkxQQ.png",🤼 WWE NXT - 08:00 PM ET to 11:00 PM ET 03/11/25 - Netflix
