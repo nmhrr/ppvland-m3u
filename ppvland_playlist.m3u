@@ -11,12 +11,6 @@ https://director.taihotel.asia/v3/director/VE1MGQzNzI5MTE0YjQwLTVmYmEtYmE3NC1kOT
 https://director.taihotel.asia/v3/director/VE1YTA5ZTU3MjFhNTI0LWRkZTktZTRlNC1mMzU4LTQwMWI0YjJk/master.m3u8?md5=1ac7Tt5OhKBLkQo3B0D9vQ&expires=1737210540
 #EXTINF:-1 tvg-id="3716" tvg-name="(North) Korean Central Television - 24/7 - 9AM-10:30PM Pyongyang Time" tvg-logo="https://i.imgur.com/CnphStu.png",(North) Korean Central Television - 24/7 - 9AM-10:30PM Pyongyang Time
 https://tv.nknews.org/tvhls/stream.m3u8?md5=Yg2p2XMywLYDUGhXGk91ag&expires=1737237600
-#EXTINF:-1 tvg-id="5554" tvg-name="🤼 TNA Sacrifice - 07:00 PM ET to 11:00 PM ET 03/14/25 - TNA+" tvg-logo="https://i.imgur.com/behAL7K.jpeg",🤼 TNA Sacrifice - 07:00 PM ET to 11:00 PM ET 03/14/25 - TNA+
-https://director.taihotel.asia/v3/director/VE1NDBlNzc5Zjc2MmUzLTM5ODgtNjA1NC1kMzdiLTZmOWIxZTQ3/master.m3u8?md5=rEch9qwy7RsjN_VxYpBwgQ&expires=1742011200
-#EXTINF:-1 tvg-id="5563" tvg-name="🏀 Purdue Boilermakers vs. Michigan Wolverines - 08:00 PM ET to 11:00 PM ET 03/14/25 - BTN" tvg-logo="https://i.imgur.com/DXv8SsF.png",🏀 Purdue Boilermakers vs. Michigan Wolverines - 08:00 PM ET to 11:00 PM ET 03/14/25 - BTN
-https://director.taihotel.asia/v3/director/VE1YTBmMjliNjAwZmU4LTc2NDktNzk4NC03ZjQ0LTM0NzA0ZTc2/master.m3u8?md5=rEch9qwy7RsjN_VxYpBwgQ&expires=1742011200
-#EXTINF:-1 tvg-id="5567" tvg-name="🏀 East Carolina Pirates vs. UAB Blazers - 08:00 PM ET to 11:00 PM ET 03/14/25 - ESPNU" tvg-logo="https://i.imgur.com/P36HNnQ.png",🏀 East Carolina Pirates vs. UAB Blazers - 08:00 PM ET to 11:00 PM ET 03/14/25 - ESPNU
-https://director.taihotel.asia/v3/director/VE1MDk5ODQzMzg1ZjBhLTdmMjgtY2Y3NC00YzY5LTgzOWNjZDAz/master.m3u8?md5=rEch9qwy7RsjN_VxYpBwgQ&expires=1742011200
 #EXTINF:-1 tvg-id="5524" tvg-name="Colorado Rockies vs. Texas Rangers - 08:05 PM ET to 11:05 PM ET 03/14/25 - TV Network" tvg-logo="https://i.imgur.com/cGCtZZl.png",Colorado Rockies vs. Texas Rangers - 08:05 PM ET to 11:05 PM ET 03/14/25 - TV Network
 https://director.taihotel.asia/v3/director/VE1YTUxZDg4MGIwYjVhLWNjZDktY2EwNC01ODA5LTZkOTViMDE5/master.m3u8?md5=xiCivfEbf7dw66Ouwz6t7A&expires=1742011500
 #EXTINF:-1 tvg-id="5551" tvg-name="🏀 Lakers at Nuggets - 08:30 PM ET to 11:15 PM ET 03/14/25 - NBA TV" tvg-logo="https://cdn.nba.com/davinci/images/team-matchups/nba/latest/ced/lal-den/1280x720.png",🏀 Lakers at Nuggets - 08:30 PM ET to 11:15 PM ET 03/14/25 - NBA TV
@@ -27,9 +21,11 @@ https://director.taihotel.asia/v3/director/VE1ZjIyMTE5ZjllNjRkLWYxNWEtMTg5NC02ZT
 https://director.taihotel.asia/v3/director/VE1YWE2Yzk3NWYxYmZiLWQ1MmEtMTEyNC1jN2NlLTVkNzRiNzc5/master.m3u8?md5=VQDNt1TrhBSmLu9dUJFLbQ&expires=1742013000
 #EXTINF:-1 tvg-id="5561" tvg-name="🏀 UConn Huskies vs. Creighton Bluejays - 08:30 PM ET to 11:30 PM ET 03/14/25 - FOX" tvg-logo="https://i.imgur.com/RAh0lCJ.png",🏀 UConn Huskies vs. Creighton Bluejays - 08:30 PM ET to 11:30 PM ET 03/14/25 - FOX
 https://director.taihotel.asia/v3/director/VE1ZmFkOWQ4ZjQyMDQ3LWRkYzktNzhlNC0yOGFlLTVhMGEzNjVh/master.m3u8?md5=VQDNt1TrhBSmLu9dUJFLbQ&expires=1742013000
+#EXTINF:-1 tvg-id="5574" tvg-name="🏀 Arizona Wildcats vs. Texas Tech Red Raiders - 08:30 PM ET to 11:30 PM ET 03/14/25 - ESPN2" tvg-logo="https://i.imgur.com/wJhfX7Z.png",🏀 Arizona Wildcats vs. Texas Tech Red Raiders - 08:30 PM ET to 11:30 PM ET 03/14/25 - ESPN2
+https://director.taihotel.asia/v3/director/VE1OGI0NDhlM2ZhZjVkLWIyYTgtM2Y2NC05MmFlLThlYzIzOTk4/master.m3u8?md5=VQDNt1TrhBSmLu9dUJFLbQ&expires=1742013000
 #EXTINF:-1 tvg-id="5525" tvg-name="Texas Rangers vs. San Diego Padres - 08:40 PM ET to 11:40 PM ET 03/14/25 - TV Network" tvg-logo="https://i.imgur.com/4gkNNK9.png",Texas Rangers vs. San Diego Padres - 08:40 PM ET to 11:40 PM ET 03/14/25 - TV Network
 https://director.taihotel.asia/v3/director/VE1OGRiM2QyY2Q3MzU5LWUyNWEtYjY3NC1hYWIwLWEzMDM1NDU5/master.m3u8?md5=jgKt9UorhLfALkGJttlCpw&expires=1742013600
-#EXTINF:-1 tvg-id="5571" tvg-name="🏀 Cal Poly Mustangs vs. UC Irvine Anteaters - 10:30 PM ET to 01:30 AM ET 03/14/25 - ESPN2" tvg-logo="https://i.imgur.com/EQX8pH9.png",🏀 Cal Poly Mustangs vs. UC Irvine Anteaters - 10:30 PM ET to 01:30 AM ET 03/14/25 - ESPN2
+#EXTINF:-1 tvg-id="5577" tvg-name="🏀 Cal Poly Mustangs vs. UC Irvine Anteaters - 10:30 PM ET to 01:30 AM ET 03/14/25 - ESPN2" tvg-logo="https://i.imgur.com/2VwUhIy.png",🏀 Cal Poly Mustangs vs. UC Irvine Anteaters - 10:30 PM ET to 01:30 AM ET 03/14/25 - ESPN2
 https://director.taihotel.asia/v3/director/VE1OGI0NDhlM2ZhZjVkLWIyYTgtM2Y2NC05MmFlLThlYzIzOTk4/master.m3u8?md5=S0jCSDe4j4RYGXuf4Yt2Gw&expires=1742020200
 #EXTINF:-1 tvg-id="4989" tvg-name="🏎️ F1: Australian Grand Prix (Qualifying) - 12:00 AM ET to 01:00 AM ET 03/15/25 - Sky Sports F1" tvg-logo="https://i.imgur.com/kmcIsU2.png",🏎️ F1: Australian Grand Prix (Qualifying) - 12:00 AM ET to 01:00 AM ET 03/15/25 - Sky Sports F1
 https://director.taihotel.asia/v3/director/VE1ZGFmZjU1ZjAxMmM5LTFjYTgtOTM0NC1lOTY2LTE3NDVjNzgy/master.m3u8?md5=jP9Iu8BdY70k-bY_xh390g&expires=1742018400
