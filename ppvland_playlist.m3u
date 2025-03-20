@@ -11,8 +11,6 @@ https://director.taihotel.asia/v3/director/VE1MGQzNzI5MTE0YjQwLTVmYmEtYmE3NC1kOT
 https://tv.nknews.org/tvhls/stream.m3u8?md5=Yg2p2XMywLYDUGhXGk91ag&expires=1737237600
 #EXTINF:-1 tvg-id="5769" tvg-name="Atlanta Braves vs. New York Yankees - 05:35 PM ET to 08:35 PM ET 03/19/25 - TV Network" tvg-logo="https://i.imgur.com/ky1XKmN.png",Atlanta Braves vs. New York Yankees - 05:35 PM ET to 08:35 PM ET 03/19/25 - TV Network
 https://director.taihotel.asia/v3/director/VE1MmQ4YjNmYzE5YTY1LTZjZDktMTEwNC05NzExLTc2M2QwNGE2/master.m3u8?md5=FJEGjL6EmLk_aXYhLvSFiA&expires=1742434500
-#EXTINF:-1 tvg-id="5771" tvg-name="🏀 Mount St. Mary's Mountaineers vs. American University Eagles - 05:40 PM ET to 07:58 PM ET 03/19/25 - truTV" tvg-logo="https://i.imgur.com/wTcEsRd.png",🏀 Mount St. Mary's Mountaineers vs. American University Eagles - 05:40 PM ET to 07:58 PM ET 03/19/25 - truTV
-https://director.taihotel.asia/v3/director/VE1MDk5ODQzMzg1ZjBhLTdmMjgtY2Y3NC00YzY5LTgzOWNjZDAz/master.m3u8?md5=imX0pDFJgtHBniaCR6Y2MQ&expires=1742432280
 #EXTINF:-1 tvg-id="5785" tvg-name="🏀 Mavericks at Pacers - 06:00 PM ET to 08:45 PM ET 03/19/25 - FDSNIN" tvg-logo="https://cdn.nba.com/davinci/images/team-matchups/nba/latest/ced/dal-ind/1280x720.png",🏀 Mavericks at Pacers - 06:00 PM ET to 08:45 PM ET 03/19/25 - FDSNIN
 https://director.taihotel.asia/v3/director/VE1ZmIzODJhNTBmNGZmLWRhOWEtMzYxNC0zYjBkLWI3NDUyODkz/master.m3u8?md5=fVzC9QEW3yT_Vi5zltLZTA&expires=1742435100
 #EXTINF:-1 tvg-id="5786" tvg-name="🏀 Rockets at Magic - 06:00 PM ET to 08:45 PM ET 03/19/25 - FDSNFL" tvg-logo="https://cdn.nba.com/davinci/images/team-matchups/nba/latest/ced/hou-orl/1280x720.png",🏀 Rockets at Magic - 06:00 PM ET to 08:45 PM ET 03/19/25 - FDSNFL
@@ -49,6 +47,12 @@ https://director.taihotel.asia/v3/director/VE1MDk5ODQzMzg1ZjBhLTdmMjgtY2Y3NC00Yz
 https://director.taihotel.asia/v3/director/VE1MTU0ODNmZGFkZjY1LTE5ZGItNjZiNC03NDljLTgzNmExZGJi/master.m3u8?md5=b0YOK5Q2PIt4-OPe_D-rWg&expires=1742499000
 #EXTINF:-1 tvg-id="5804" tvg-name="🏈 UEFA Nations League: Armenia vs Georgia - 12:00 PM ET to 02:30 PM ET 03/20/25 - Sky Sport 3 NZ" tvg-logo="https://i.imgur.com/FwA3sZD.jpeg",🏈 UEFA Nations League: Armenia vs Georgia - 12:00 PM ET to 02:30 PM ET 03/20/25 - Sky Sport 3 NZ
 https://director.taihotel.asia/v3/director/VE1NGQ4YjM2NTNkMzJkLTU1Y2EtYmE2NC1kZjJkLWNlYzkyODZh/master.m3u8?md5=b0YOK5Q2PIt4-OPe_D-rWg&expires=1742499000
+#EXTINF:-1 tvg-id="5843" tvg-name="Philadelphia Phillies vs. Atlanta Braves - 12:05 PM ET to 03:05 PM ET 03/20/25 - TV Network" tvg-logo="https://i.imgur.com/X0PUzNq.png",Philadelphia Phillies vs. Atlanta Braves - 12:05 PM ET to 03:05 PM ET 03/20/25 - TV Network
+https://director.taihotel.asia/v3/director/VE1YWMxN2M4YWMzNTVjLWY0NjgtMTIwNC00MmY5LWZjMzJhNGU4/master.m3u8?md5=kSMYSyYcbWwvBNpRUypJCQ&expires=1742501100
+#EXTINF:-1 tvg-id="5844" tvg-name="Tampa Bay Rays vs. Toronto Blue Jays - 12:07 PM ET to 03:07 PM ET 03/20/25 - TV Network" tvg-logo="https://i.imgur.com/vW63Wu7.png",Tampa Bay Rays vs. Toronto Blue Jays - 12:07 PM ET to 03:07 PM ET 03/20/25 - TV Network
+https://director.taihotel.asia/v3/director/VE1YjQyNWFjNjFhNmYzLTE3NTktNDg1NC00YTQ3LTQxYmM1MTVi/master.m3u8?md5=xUoOwmPYLHabWr1qASB7eA&expires=1742501220
+#EXTINF:-1 tvg-id="5845" tvg-name="Houston Astros vs. Miami Marlins - 12:10 PM ET to 03:10 PM ET 03/20/25 - TV Network" tvg-logo="https://i.imgur.com/gjcr9yB.png",Houston Astros vs. Miami Marlins - 12:10 PM ET to 03:10 PM ET 03/20/25 - TV Network
+https://director.taihotel.asia/v3/director/VE1YjVmMDI3YjEwMzljLWQzNjgtZGI5NC1hZjZmLTBiOGNmODQ0/master.m3u8?md5=JYh7dinjab4PjCrcK7a_ng&expires=1742501400
 #EXTINF:-1 tvg-id="5829" tvg-name="🏀 Montana Grizzlies vs. Wisconsin Badgers - 12:30 PM ET to 02:51 PM ET 03/20/25 - TNT" tvg-logo="https://i.imgur.com/P7BQZlP.png",🏀 Montana Grizzlies vs. Wisconsin Badgers - 12:30 PM ET to 02:51 PM ET 03/20/25 - TNT
 https://director.taihotel.asia/v3/director/VE1OGI0NDhlM2ZhZjVkLWIyYTgtM2Y2NC05MmFlLThlYzIzOTk4/master.m3u8?md5=EEJaFiPfvj-9UsLwR5Y8aA&expires=1742500260
 #EXTINF:-1 tvg-id="5830" tvg-name="🏀 SIU Edwardsville Cougars vs. Houston Cougars - 01:00 PM ET to 03:21 PM ET 03/20/25 - TBS" tvg-logo="https://i.imgur.com/yVnSz2a.png",🏀 SIU Edwardsville Cougars vs. Houston Cougars - 01:00 PM ET to 03:21 PM ET 03/20/25 - TBS
@@ -85,8 +89,14 @@ https://director.taihotel.asia/v3/director/VE1OWMwMWIyNTQ3MmU0LTIyNDgtNzMxNC02NW
 https://director.taihotel.asia/v3/director/VE1ZjkwNDNhZWE3NGIzLThmMzgtMWM4NC0xNzA1LWZiM2NiODJi/master.m3u8?md5=CSs_Ai-zOqaJpFuMzh7DEA&expires=1742508900
 #EXTINF:-1 tvg-id="5833" tvg-name="🏀 VCU Rams vs. BYU Cougars - 03:05 PM ET to 05:26 PM ET 03/20/25 - TNT" tvg-logo="https://i.imgur.com/shUHRKI.png",🏀 VCU Rams vs. BYU Cougars - 03:05 PM ET to 05:26 PM ET 03/20/25 - TNT
 https://director.taihotel.asia/v3/director/VE1OGI0NDhlM2ZhZjVkLWIyYTgtM2Y2NC05MmFlLThlYzIzOTk4/master.m3u8?md5=UMVZB53YUPqOnXZ1PiyvnQ&expires=1742509560
+#EXTINF:-1 tvg-id="5847" tvg-name="Los Angeles Angels vs. Chicago White Sox - 03:05 PM ET to 06:05 PM ET 03/20/25 - TV Network" tvg-logo="https://i.imgur.com/GE6tfvt.png",Los Angeles Angels vs. Chicago White Sox - 03:05 PM ET to 06:05 PM ET 03/20/25 - TV Network
+https://director.taihotel.asia/v3/director/VE1ZjA3N2MwNjE0OWVkLTljZDgtMzAxNC05OTA4LTdhZTgzNDk5/master.m3u8?md5=DEoPafg3KyX3wuxHk-kzkw&expires=1742511900
 #EXTINF:-1 tvg-id="5834" tvg-name="🏀 Georgia Bulldogs vs. Gonzaga Bulldogs - 03:35 PM ET to 05:56 PM ET 03/20/25 - TBS" tvg-logo="https://i.imgur.com/SOwAmqz.png",🏀 Georgia Bulldogs vs. Gonzaga Bulldogs - 03:35 PM ET to 05:56 PM ET 03/20/25 - TBS
 https://director.taihotel.asia/v3/director/VE1ZjIyMTE5ZjllNjRkLWYxNWEtMTg5NC02ZTE2LWNiYmQxMDZm/master.m3u8?md5=MuUBXA3E0quhAZ9q7rNwWQ&expires=1742511360
+#EXTINF:-1 tvg-id="5850" tvg-name="Boston Red Sox vs. Minnesota Twins - 05:05 PM ET to 08:05 PM ET 03/20/25 - TV Network" tvg-logo="https://i.imgur.com/3kHRzlw.png",Boston Red Sox vs. Minnesota Twins - 05:05 PM ET to 08:05 PM ET 03/20/25 - TV Network
+https://director.taihotel.asia/v3/director/VE1YjBlOGIzMjEzNzg1LTMyYzktNDA5NC00MTIyLTgxOGYyODU0/master.m3u8?md5=-gBCGZdLLrpLHGpy5fndOg&expires=1742519100
+#EXTINF:-1 tvg-id="5851" tvg-name="New York Yankees vs. Baltimore Orioles - 05:05 PM ET to 08:05 PM ET 03/20/25 - TV Network" tvg-logo="https://i.imgur.com/T1Sojh1.png",New York Yankees vs. Baltimore Orioles - 05:05 PM ET to 08:05 PM ET 03/20/25 - TV Network
+https://director.taihotel.asia/v3/director/VE1ZmM0NzVlNjM1NTY0LWFjZWEtZDI4NC1kZjllLWVjZDc3N2E4/master.m3u8?md5=-gBCGZdLLrpLHGpy5fndOg&expires=1742519100
 #EXTINF:-1 tvg-id="5835" tvg-name="🏀 Wofford Terriers vs. Tennessee Volunteers - 05:50 PM ET to 08:11 PM ET 03/20/25 - TNT" tvg-logo="https://i.imgur.com/6F8qIIf.png",🏀 Wofford Terriers vs. Tennessee Volunteers - 05:50 PM ET to 08:11 PM ET 03/20/25 - TNT
 https://director.taihotel.asia/v3/director/VE1OGI0NDhlM2ZhZjVkLWIyYTgtM2Y2NC05MmFlLThlYzIzOTk4/master.m3u8?md5=7ULwb5EnHyDWAsaJ4P9JMA&expires=1742519460
 #EXTINF:-1 tvg-id="5836" tvg-name="🏀 Arkansas Razorbacks vs. Kansas Jayhawks - 06:10 PM ET to 08:31 PM ET 03/20/25 - CBS" tvg-logo="https://i.imgur.com/fr7yEu1.png",🏀 Arkansas Razorbacks vs. Kansas Jayhawks - 06:10 PM ET to 08:31 PM ET 03/20/25 - CBS
@@ -97,8 +107,12 @@ https://director.taihotel.asia/v3/director/VE1ZjIyMTE5ZjllNjRkLWYxNWEtMTg5NC02ZT
 https://director.taihotel.asia/v3/director/VE1MDk5ODQzMzg1ZjBhLTdmMjgtY2Y3NC00YzY5LTgzOWNjZDAz/master.m3u8?md5=DF61QZtOhimOyKkchK3pDQ&expires=1742522160
 #EXTINF:-1 tvg-id="5694" tvg-name="🤼 TNA Impact! - 07:00 PM ET to 10:00 PM ET 03/20/25 - AXS TV" tvg-logo="https://i.imgur.com/FOQVo8f.png",🤼 TNA Impact! - 07:00 PM ET to 10:00 PM ET 03/20/25 - AXS TV
 https://director.taihotel.asia/v3/director/VE1Y2MyYTFhM2RmNmJjLTk1MGItZjdiNC03YTQ1LTA3ZTdkMmYy/master.m3u8?md5=MvTemVQfNht0IcX6eJ0zew&expires=1742526000
+#EXTINF:-1 tvg-id="5852" tvg-name="Colorado Rockies vs. Texas Rangers - 08:05 PM ET to 11:05 PM ET 03/20/25 - TV Network" tvg-logo="https://i.imgur.com/FLWksQG.png",Colorado Rockies vs. Texas Rangers - 08:05 PM ET to 11:05 PM ET 03/20/25 - TV Network
+https://director.taihotel.asia/v3/director/VE1YTUxZDg4MGIwYjVhLWNjZDktY2EwNC01ODA5LTZkOTViMDE5/master.m3u8?md5=gUBVlXkY87vVuvu8R8aLPg&expires=1742529900
 #EXTINF:-1 tvg-id="5839" tvg-name="🏀 Utah State Aggies vs. UCLA Bruins - 08:25 PM ET to 10:46 PM ET 03/20/25 - TNT" tvg-logo="https://i.imgur.com/rfCW0Jl.png",🏀 Utah State Aggies vs. UCLA Bruins - 08:25 PM ET to 10:46 PM ET 03/20/25 - TNT
 https://director.taihotel.asia/v3/director/VE1OGI0NDhlM2ZhZjVkLWIyYTgtM2Y2NC05MmFlLThlYzIzOTk4/master.m3u8?md5=LyXvOF2rLTbog9k_kxt19Q&expires=1742528760
+#EXTINF:-1 tvg-id="5853" tvg-name="Texas Rangers vs. San Diego Padres - 08:40 PM ET to 11:40 PM ET 03/20/25 - TV Network" tvg-logo="https://i.imgur.com/B4urbSd.png",Texas Rangers vs. San Diego Padres - 08:40 PM ET to 11:40 PM ET 03/20/25 - TV Network
+https://director.taihotel.asia/v3/director/VE1OGRiM2QyY2Q3MzU5LWUyNWEtYjY3NC1hYWIwLWEzMDM1NDU5/master.m3u8?md5=D1uvQfnBYZW6j6zcYvjNTg&expires=1742532000
 #EXTINF:-1 tvg-id="5840" tvg-name="🏀 Omaha Mavericks vs. St. John's Red Storm - 08:45 PM ET to 11:06 PM ET 03/20/25 - CBS" tvg-logo="https://i.imgur.com/6Hzd05E.png",🏀 Omaha Mavericks vs. St. John's Red Storm - 08:45 PM ET to 11:06 PM ET 03/20/25 - CBS
 https://director.taihotel.asia/v3/director/VE1YWE2Yzk3NWYxYmZiLWQ1MmEtMTEyNC1jN2NlLTVkNzRiNzc5/master.m3u8?md5=FklMuOGBZ_AUY-Y2NjvexA&expires=1742529960
 #EXTINF:-1 tvg-id="5841" tvg-name="🏀 UC San Diego Tritons vs. Michigan Wolverines - 09:00 PM ET to 11:21 PM ET 03/20/25 - TBS" tvg-logo="https://i.imgur.com/ncsnHzt.png",🏀 UC San Diego Tritons vs. Michigan Wolverines - 09:00 PM ET to 11:21 PM ET 03/20/25 - TBS
